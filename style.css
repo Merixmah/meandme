@@ -1,0 +1,350 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+html, body{
+    height: 100%;
+}
+.main{
+    width: 100%;
+    
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+    text-align: left;
+    margin: 0px;
+   
+
+}
+#main{
+    overflow: auto;
+    padding-bottom: 100px;
+}
+
+#footer{
+    background-color: black;
+    position: relative;
+    height: 100px;
+    margin-top: -100px;
+    clear: both;
+}
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+   
+
+}
+hr{
+    width: 1000px;
+    margin:auto;
+    border-color:black;
+    height: 0px;
+}
+.logo{
+    padding-left: 20px;
+    float:left;
+    padding-top: 10px;
+}
+.menu{
+    position: sticky;
+    top: 0px;
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: Helvetica;
+    
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color: bisque;
+}
+
+.search{
+    width: 200px;
+    float: left;
+    margin-left: 400px;
+}
+ .srch{
+     font-family: Helvetica;
+     width: 190px;
+     height: 40px;
+     background: transparent;
+     border: 1px solid bisque;
+     margin-top: 13px;
+     color: white;
+     border-right: none;
+     font-size: 16px;
+     float: left;
+     padding: 10px;
+     border-bottom-left-radius: 5px;
+     border-top-left-radius: 5px;
+
+ }
+.btn{
+    width: 100%;
+    height: 40%;
+    background: bisque;
+    border: 2px solid bisque;
+    margin-top: 13px;
+    color: black;
+    font-size: 15px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+
+}
+
+.btn:focus{
+    outline: none;
+
+}
+
+.srch:focus{
+    outline: none;
+}
+
+.content{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    color: black;
+    position: relative;
+    align-content: center;
+    justify-items: center;
+}
+
+.content .par{
+    padding-left: 40px;
+    padding-bottom: 25px;
+    font-family: Helvetica;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+    justify-content: center;
+}
+.content h1{
+    font-family: Helvetica;
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 0%;
+    letter-spacing: 2px;
+
+
+}
+.content .cn{
+    width: 160px;
+    height: 40px;
+    background: bisque;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    font-size: 14px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.content .cn a{
+    text-decoration: none;
+    color: black;
+    transition: .3s ease;
+
+}
+
+.cn:hover{
+    background-color: beige;
+}
+
+.anmeldelser{
+    width: 700px;
+    height: auto;
+    margin: 30px;
+    color: black;
+    position: relative;
+    align-content: left;
+    justify-items: left;
+    font-family: Helvetica;
+
+}
+
+.video{
+    width:100%;
+    height: 700px;
+    display:flex;
+    justify-content: center;
+}
+
+/* behandlinger */
+section.nailcards {
+    width:100%;
+    display:flex;
+    justify-content:space-around;
+}
+
+section.nailcards > div{
+    width:300px;
+    height:450px;
+    padding-top:20px;
+
+    text-align:center;
+}
+
+section.nailcards > div > img{
+    width:300px;
+}
+
+section.nailcards > div > h3{
+    font-size:16pt;
+}
+
+
+
+/* nails: */
+section#nails{
+    display:flex;
+    align-items:flex-end;
+    justify-content: center;
+}
+
+section#nails > div{
+    width:80%;
+    text-align:center;
+    margin-bottom:100px;
+    font-family:Helvetica;
+}
+
+.cn{
+    width: 160px;
+    height: 40px;
+    background: bisque;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    font-size: 14px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.cn a{
+    text-decoration: none;
+    color: black;
+    transition: .3s ease;
+
+}
+
+.cn:hover{
+    background-color: beige;
+}
+
+/* wildnails: */
+section.wildnailcards {
+    width:100%;
+    display:flex;
+    justify-content:space-around;
+}
+
+section.wildnailcards > div{
+    width:300px;
+    height:180px;
+    padding-top:20px;
+
+    text-align:center;
+}
+
+section.wildnailcards > div > img{
+    width:300px;
+}
+
+section.wildnailcards > div > h3{
+    font-size:16pt;
+}
+
+
+
+
+/* cafevindue: */
+section.cafemenu {
+    width:100%;
+    display:flex;
+    justify-content:space-around;
+}
+
+section.cafemenu > div{
+    width: 1500px;
+    height:800px;
+    padding-top:20px;
+
+    text-align:center;
+}
+
+section.cafemenu > div > img{
+    width:900px;
+}
+
+section.cafemenu > div > h3{
+    font-size:16pt;
+}
+
+
+section, footer {
+    min-height:300px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width: 100%;
+}
+
+
+
+/* Om Os: */
+section.staff {
+    width:100%;
+    display:flex;
+    justify-content:space-around;
+}
+
+section.staff > div{
+    width: 1200px;
+    height:700px;
+    padding-top:20px;
+
+    text-align:center;
+}
+
+section.staff > div > img{
+    width:1200px;
+    height: 700;
+}
+
+section.omostekst{
+    font-family: Helvetica;
+    text-align:center;
+    letter-spacing: 0.5px;
+
+}
+
